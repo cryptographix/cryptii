@@ -6,6 +6,8 @@ import View from '../View'
  * Encoder brick view
  */
 export default class EncoderView extends BrickView {
+  _$encodeAction;
+  _$decodeAction;
   /**
    * Constructor
    */

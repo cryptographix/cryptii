@@ -6,6 +6,8 @@ import View from '../../View'
  * Enum setting view
  */
 export default class EnumSettingView extends SettingView {
+  _$select;
+  _$$radio;
   /**
    * Constructor
    */

@@ -6,6 +6,14 @@ import View from '../View'
  * Brick view
  */
 export default class BrickView extends View {
+  _$menu;
+  _$body;
+  _$settings;
+  _$header;
+  _$message;
+  _$status;
+  _menuVisible;
+  _menuHideHandler;
   /**
    * Constructor
    */

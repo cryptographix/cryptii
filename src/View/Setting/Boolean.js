@@ -6,6 +6,7 @@ import View from '../../View'
  * Boolean setting view
  */
 export default class BooleanSettingView extends SettingView {
+  _$input;
   /**
    * Constructor
    */

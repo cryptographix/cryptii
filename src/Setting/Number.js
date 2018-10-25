@@ -6,6 +6,11 @@ import Setting from '../Setting'
  * Number setting
  */
 export default class NumberSetting extends Setting {
+  _integer;
+  _step;
+  _min;
+  _max;
+  _rotate;
   /**
    * Constructor
    * @param {string} name

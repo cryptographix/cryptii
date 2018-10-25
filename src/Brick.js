@@ -10,6 +10,10 @@ import EventManager from './EventManager'
  * @abstract
  */
 export default class Brick extends Viewable {
+  _settings;
+  _alias;
+  _pipe;
+  _hidden;
   /**
    * Returns brick meta.
    * @abstract

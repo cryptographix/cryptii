@@ -14,6 +14,7 @@ const meta = {
  * Encoder brick for creating HMAC digests using an underlying hash function
  */
 export default class HMACEncoder extends Encoder {
+  _hashEncoder;
   /**
    * Returns brick meta.
    * @return {object}

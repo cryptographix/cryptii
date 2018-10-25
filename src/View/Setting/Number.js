@@ -6,6 +6,7 @@ import View from '../../View'
  * Number setting view
  */
 export default class NumberSettingView extends SettingView {
+  _$input;
   /**
    * Constructor
    */

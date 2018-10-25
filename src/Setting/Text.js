@@ -9,6 +9,10 @@ import TextSettingView from '../View/Setting/Text'
  * Text setting
  */
 export default class TextSetting extends Setting {
+  _minLength;
+  _maxLength;
+  _allowedChars;
+  _caseSensitivity;
   /**
    * Setting constructor
    * @param {string} name

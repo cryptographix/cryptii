@@ -52,6 +52,12 @@ export default class View {
     return $element
   }
 
+  _$root;
+  _superview;
+  _model;
+  _subviews;
+  _focus;
+  _needsUpdate;
   /**
    * View constructor
    */

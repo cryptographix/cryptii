@@ -3,6 +3,7 @@
  * Pseudo-random number generator (PRNG).
  */
 export default class Random {
+  _seed;
   /**
    * Random generator constructor.
    * @param {string} [seed] Seed to be used during randomization.

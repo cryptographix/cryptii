@@ -7,6 +7,8 @@ import Setting from '../Setting'
  * Byte setting
  */
 export default class ByteSetting extends Setting {
+  _minSize;
+  _maxSize;
   /**
    * Setting constructor
    * @param {string} name
@@ -15,7 +17,7 @@ export default class ByteSetting extends Setting {
    * @param {?number} [spec.options.minSize=null] Minimum size in bytes
    * @param {?number} [spec.options.maxSize=null] Maximum size in bytes
    */
-  constructor (name, spec = {}) {
+  constructor (name,spec) {
     super(name, spec)
     this._viewPrototype = ByteSettingView
 

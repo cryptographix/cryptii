@@ -6,6 +6,11 @@ import View from '../View'
  * Setting view
  */
 export default class SettingView extends View {
+  _$message;
+  _message;
+  _style;
+  _id;
+  _first;
   /**
    * Constructor
    */

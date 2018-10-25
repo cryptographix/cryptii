@@ -6,6 +6,8 @@ import View from '../../View'
  * Library modal view
  */
 export default class LibraryModalView extends ModalView {
+  _library;
+  _categories;
   /**
    * Constructor
    * @param {object[]} library Array of brick meta objects.

@@ -15,6 +15,11 @@ import Viewer from './Viewer'
  * Arrangement of viewers and encoders.
  */
 export default class Pipe extends Viewable {
+  _bricks;
+  _brickState;
+  _bucketContent;
+  _selectedBucket;
+  _bucketListeners;
   /**
    * Constructor
    */

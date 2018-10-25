@@ -6,6 +6,8 @@ import View from './View'
  * @abstract
  */
 export default class Viewable {
+  _view;
+  _viewPrototype;
   /**
    * Constructor
    */

@@ -11,6 +11,10 @@ import MathUtil from './MathUtil'
  * @abstract
  */
 export default class Encoder extends Brick {
+  _reverse;
+  _encodeOnly;
+  _lastError;
+  _lastTranslationMeta;
   /**
    * Brick constructor
    */

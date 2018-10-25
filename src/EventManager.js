@@ -6,6 +6,8 @@ let sharedInstance = null
  * Class managing events and event handlers
  */
 export default class EventManager {
+  _observerNames;
+  _observerCallbacks;
   /**
    * Constructor
    */

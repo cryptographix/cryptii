@@ -5,6 +5,15 @@ import View from '../View'
  * Modal view
  */
 export default class ModalView extends View {
+  _title;
+  _visible;
+  _value;
+  _finishCallback;
+  _cancelCallback;
+
+  _keyUpHandler;
+  _$outer;
+  _$dialog;
   /**
    * Modal constructor
    */

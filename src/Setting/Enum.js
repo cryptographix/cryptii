@@ -6,6 +6,9 @@ import Setting from '../Setting'
  * Enum setting
  */
 export default class EnumSetting extends Setting {
+  _elements;
+  _labels;
+  _descriptions;
   /**
    * Setting constructor
    * @param {string} name

@@ -9,6 +9,22 @@ import Viewable from './Viewable'
  * Abstract setting
  */
 export default class Setting extends Viewable {
+  _name;
+  _value;
+  _randomizable;
+  _valid;
+  _label;
+  _message;
+  _messageKey;
+  _delegate;
+  _style;
+  _priority;
+  _width;
+  _viewPrototype;
+  _visible;
+  _validateValueCallback;
+  _filterValueCallback;
+  _randomizeValueCallback;
   /**
    * Setting constructor. Override is required to call super.
    * @param {string} name

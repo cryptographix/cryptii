@@ -12,6 +12,7 @@ const BlockToCharacterMode = 1
  * @abstract
  */
 export default class CharacterBlockEncoder extends Encoder {
+  _mode;
   /**
    * Constructor
    */

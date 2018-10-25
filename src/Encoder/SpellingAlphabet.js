@@ -88,6 +88,8 @@ const spaceWord = '(space)'
  * Encoder brick translating characters into words of given spelling alphabet.
  */
 export default class SpellingAlphabetEncoder extends Encoder {
+  _characterMap;
+  _wordMap;
   /**
    * Returns brick meta.
    * @return {object}

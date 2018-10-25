@@ -12,6 +12,10 @@ let emptyChain = null
  * When requested, it lazily translates between these representations.
  */
 export default class Chain {
+  _codePoints;
+  _bytes;
+  _string;
+  _encoding;
   /**
    * Chains can be constructed given either a string, an array of code points
    * or an Uint8Array of bytes.

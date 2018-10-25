@@ -11,6 +11,7 @@ let instance = null
  * Application
  */
 export default class App extends Viewable {
+  _pipe;
   /**
    * Application constructor
    */

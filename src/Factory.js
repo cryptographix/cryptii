@@ -4,6 +4,8 @@
  * invokables to create instances.
  */
 export default class Factory {
+  _identifiers;
+  _invokables;
   /**
    * Factory constructor
    */

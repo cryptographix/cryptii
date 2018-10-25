@@ -8,6 +8,7 @@ import View from '../../View'
  * Byte setting view
  */
 export default class ByteSettingView extends SettingView {
+  _$input;
   /**
    * Constructor
    */

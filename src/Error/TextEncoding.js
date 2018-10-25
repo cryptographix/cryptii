@@ -5,6 +5,7 @@ import InvalidInputError from './InvalidInput'
  * Errors thrown due to malformed byte encoded text.
  */
 export default class TextEncodingError extends InvalidInputError {
+  byteIndex;
   /**
    * Constructor
    * @param {string} message

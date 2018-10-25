@@ -6,6 +6,9 @@ import View from '../../View'
  * Text viewer view
  */
 export default class TextViewerView extends ViewerView {
+  _text;
+  _disabled;
+  _$textarea;
   /**
    * Constructor
    */
